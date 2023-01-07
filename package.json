@@ -6,8 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --configuration production --base-href=/svg-path-editor/",
-    "prettier:check": "prettier -c -w --plugin-search-dir=. .",
-    "prettier:format": "prettier --cache -w --plugin-search-dir=. .",
+    "prettier:check": "prettier -c .",
+    "prettier:format": "prettier --cache -w .",
     "test": "ng test",
     "lint": "ng lint"
   },

@@ -10,10 +10,9 @@ describe('SaveComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ MatDialogModule, MatIconModule ],
-      declarations: [ SaveComponent ]
-    })
-    .compileComponents();
+      imports: [MatDialogModule, MatIconModule],
+      declarations: [SaveComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

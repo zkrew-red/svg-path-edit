@@ -3,7 +3,7 @@ import { browserComputePathBoundingBox } from '../svg-bbox';
 
 @Component({
   selector: 'app-path-preview',
-  templateUrl: './path-preview.component.html'
+  templateUrl: './path-preview.component.html',
 })
 export class PathPreviewComponent implements OnInit {
   @Input() x?: number;
@@ -16,10 +16,15 @@ export class PathPreviewComponent implements OnInit {
   @Input() strokeWidth?: number;
   @Input() path = '';
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    if(this.x === undefined || this.y === undefined || this.width === undefined || this.height === undefined) {
+    if (
+      this.x === undefined ||
+      this.y === undefined ||
+      this.width === undefined ||
+      this.height === undefined
+    ) {
       const bbox = browserComputePathBoundingBox(this.path);
       this.x = bbox.x;
       this.y = bbox.y;
@@ -29,7 +34,9 @@ export class PathPreviewComponent implements OnInit {
   }
 
   patternScale(containterWidth: number, containerHeight: number): number {
-    return Math.max((this.width??0) / containterWidth, (this.height??0) / containerHeight);
+    return Math.max(
+      (this.width ?? 0) / containterWidth,
+      (this.height ?? 0) / containerHeight
+    );
   }
-
 }

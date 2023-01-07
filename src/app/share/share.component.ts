@@ -1,5 +1,18 @@
-import { Component, Output, EventEmitter, Inject, Input, ViewChild, AfterViewInit, ElementRef } from '@angular/core';
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import {
+  Component,
+  Output,
+  EventEmitter,
+  Inject,
+  Input,
+  ViewChild,
+  AfterViewInit,
+  ElementRef,
+} from '@angular/core';
+import {
+  MatDialog,
+  MatDialogRef,
+  MAT_DIALOG_DATA,
+} from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { StorageService } from '../storage.service';
 
@@ -9,14 +22,13 @@ export class DialogData {
 
 @Component({
   selector: 'app-share-snackbar',
-  templateUrl: 'share-dialog-snackbar.component.html'
+  templateUrl: 'share-dialog-snackbar.component.html',
 })
 export class ShareDialogSnackbarComponent {}
 
-
 @Component({
   selector: 'app-share-dialog',
-  templateUrl: 'share-dialog.component.html'
+  templateUrl: 'share-dialog.component.html',
 })
 export class ShareDialogComponent implements AfterViewInit {
   @ViewChild('input') inputField?: ElementRef;
@@ -25,8 +37,7 @@ export class ShareDialogComponent implements AfterViewInit {
     public dialogRef: MatDialogRef<ShareDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData,
     private snackBar: MatSnackBar
-  ) {
-  }
+  ) {}
 
   ngAfterViewInit(): void {
     setTimeout(() => this.selectText());
@@ -46,9 +57,9 @@ export class ShareDialogComponent implements AfterViewInit {
     this.selectText();
     navigator.clipboard.writeText(this.inputField?.nativeElement.value);
     this.snackBar.openFromComponent(ShareDialogSnackbarComponent, {
-      horizontalPosition:'center',
+      horizontalPosition: 'center',
       verticalPosition: 'top',
-      duration: 2000
+      duration: 2000,
     });
   }
 
@@ -61,7 +72,7 @@ export class ShareDialogComponent implements AfterViewInit {
 
 @Component({
   selector: 'app-share',
-  templateUrl: './share.component.html'
+  templateUrl: './share.component.html',
 })
 export class ShareComponent {
   @Input() path: string = '';
@@ -69,16 +80,15 @@ export class ShareComponent {
 
   constructor(
     public dialog: MatDialog,
-    public storageService: StorageService,
-  ) {
-  }
+    public storageService: StorageService
+  ) {}
 
   openDialog(): void {
     const dialogRef = this.dialog.open(ShareDialogComponent, {
       width: '800px',
       panelClass: 'dialog',
       autoFocus: false,
-      data: {path: this.path}
+      data: { path: this.path },
     });
   }
 }

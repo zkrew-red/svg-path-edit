@@ -10,10 +10,9 @@ describe('ExpandableComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExpandableComponent ],
-      imports: [ BrowserAnimationsModule, MatIconModule ]
-    })
-    .compileComponents();
+      declarations: [ExpandableComponent],
+      imports: [BrowserAnimationsModule, MatIconModule],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
