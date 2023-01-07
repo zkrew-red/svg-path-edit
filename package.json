@@ -1,11 +1,11 @@
 {
-  "name": "svg-path-editor",
+  "name": "pathedit",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-prod": "ng build --configuration production --base-href=/svg-path-editor/",
+    "build-prod": "ng build --configuration production --base-href=/pathedit/",
     "prettier:check": "prettier -c .",
     "prettier:format": "prettier --cache -w .",
     "test": "ng test",
