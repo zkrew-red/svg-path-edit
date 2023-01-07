@@ -13,14 +13,14 @@ git add --all
 git commit -m "Refreshed gh-pages from main"
 git show --stat
 
-read -p "Confirm publication? [yn] " -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
+# read -p "Confirm publication? [yn] " -r
+# if [[ $REPLY =~ ^[Yy]$ ]]
+# then
     echo
     git push origin gh-pages
 
-fi
-echo
+# fi
+# echo
 
 cd ..
 rm -rf .svg-path-editor-main
