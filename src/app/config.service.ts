@@ -36,8 +36,8 @@ export class ConfigService {
   @save() viewPortLocked = false;
   @save() filled = true;
   @save() preview = false;
-  @save() showTicks = false;
-  @save() minifyOutput = false;
+  @save() showTicks = true;
+  @save() minifyOutput = true;
   @save() snapToGrid = true;
   @save() tickInterval = 5;
   @save() decimalPrecision = 3;
