@@ -28,7 +28,7 @@
   </div>
   <input hidden (change)="onFileSelected(fileInput)" accept="image/*" #fileInput type="file">
 </div>
-<div mat-dialog-actions align="end">
+<div mat-dialog-actions>
   <button mat-raised-button (click)="onCancel()" color="basic">Cancel</button>
   <button mat-raised-button (click)="onUploadImage()" color="primary" [disabled]="!data">Import</button>
 </div>
