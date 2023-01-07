@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1671558586055,
+  "timestamp": 1673082896110,
   "index": "/svg-path-editor/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/svg-path-editor/favicon.ico",
         "/svg-path-editor/index.html",
-        "/svg-path-editor/main.50fab9d94187846c.js",
+        "/svg-path-editor/main.961577284a2de7e0.js",
         "/svg-path-editor/manifest.webmanifest",
         "/svg-path-editor/polyfills.f89984eec34c06c4.js",
         "/svg-path-editor/runtime.271e5cc5d269dc49.js",
-        "/svg-path-editor/styles.55311eaff7d4b4a9.css"
+        "/svg-path-editor/styles.450bb15827887134.css"
       ],
       "patterns": []
     },
@@ -54,13 +54,13 @@
   "hashTable": {
     "/svg-path-editor/assets/delete.svg": "c9d8618ebbfb075f6449d7ccd318be36803a2a98",
     "/svg-path-editor/assets/github.svg": "f49c2d4abc2753aff2edbd161758f852472e22ed",
-    "/svg-path-editor/assets/icons/icon-128x128.png": "990bf9066e18e84df38496afcb581dd032d5dd79",
-    "/svg-path-editor/assets/icons/icon-144x144.png": "1418f7e28c137f14f1e3f52405587500dc2e314e",
-    "/svg-path-editor/assets/icons/icon-152x152-cropped.png": "4252eb7bfb2e454264eef04afedbe46f22abd619",
-    "/svg-path-editor/assets/icons/icon-152x152.png": "149f61864f3e263deedab9a54ae68737417b1b3c",
-    "/svg-path-editor/assets/icons/icon-192x192.png": "a4357613a87087d60ddb19e3f1117cd7116fab7a",
-    "/svg-path-editor/assets/icons/icon-384x384.png": "d98880dd39e8f550e4c12b3c6c6d347a4c79adfe",
-    "/svg-path-editor/assets/icons/icon-512x512.png": "7492b47ba3ea2a411037ca9f65474c1e557b9dbb",
+    "/svg-path-editor/assets/icons/icon-128x128.png": "db30911cf1fdb860573b25e8b7a4eec8a228196d",
+    "/svg-path-editor/assets/icons/icon-144x144.png": "ec5b90b6874215120b0a4b8261b86b7f0e4b1730",
+    "/svg-path-editor/assets/icons/icon-152x152-cropped.png": "2d24b143bfbdf02da6a32de6514f80ba8c895343",
+    "/svg-path-editor/assets/icons/icon-152x152.png": "9371364cac2c6944984a30406c38fba21b75ad5f",
+    "/svg-path-editor/assets/icons/icon-192x192.png": "35386758b27f0878ca3cba4b75ebe91a72235b76",
+    "/svg-path-editor/assets/icons/icon-384x384.png": "19fd29bd116675b93f60e904f72a3ae907899d48",
+    "/svg-path-editor/assets/icons/icon-512x512.png": "edbded5e30ebbfd5c715b93aa4cb71ee89fbd47d",
     "/svg-path-editor/assets/icons/icon-72x72.png": "025fc86cdee053766cb0ba832ec7611d9d2f9e24",
     "/svg-path-editor/assets/icons/icon-96x96.png": "94a0268ac4b4667655798a2ae84a4ce1197a9775",
     "/svg-path-editor/assets/logo.svg": "991d4d0400f85453cf8f7cbad937be0201bf0f65",
@@ -70,12 +70,12 @@
     "/svg-path-editor/assets/zoom_in.svg": "bf3ac558a23c8e5de36d2526618eac96e867af4a",
     "/svg-path-editor/assets/zoom_out.svg": "2e7c0be5fb00f1468a89685dc13139a63d34588d",
     "/svg-path-editor/favicon.ico": "5e89bcef8dcf5abfb8442b0a182fbe76dfbf61a9",
-    "/svg-path-editor/index.html": "3421c0c36416ecd914ddfd46e5e9576929503ba7",
-    "/svg-path-editor/main.50fab9d94187846c.js": "159dfe9779101417d8d75cb0e7171709f1a19121",
+    "/svg-path-editor/index.html": "b94d84b9947aec73a998b72846646aef3cd90c58",
+    "/svg-path-editor/main.961577284a2de7e0.js": "8da737788b123cc8785f9ea8ef26194595153f57",
     "/svg-path-editor/manifest.webmanifest": "80b98f13afc36553e06626b0f03032fcaac82c58",
     "/svg-path-editor/polyfills.f89984eec34c06c4.js": "25e86e175dce79e55193192e9dff2aa0e6e296fb",
     "/svg-path-editor/runtime.271e5cc5d269dc49.js": "54826e1c8d8f9b125ca49102005daff2e0dc3451",
-    "/svg-path-editor/styles.55311eaff7d4b4a9.css": "b2a4a974d84905e8d5077b4976a63489d802839e"
+    "/svg-path-editor/styles.450bb15827887134.css": "041d2526d10964be543d6e1cc5a3adfa8bc7d19c"
   },
   "navigationUrls": [
     {
