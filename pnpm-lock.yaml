@@ -38,7 +38,7 @@ specifiers:
   rxjs: ~6.6.0
   ts-node: ^10.9.1
   tslib: ^2.1.0
-  typescript: ~4.9.0
+  typescript: ~4.7.4
   webpack: ^5.75.0
   zone.js: ~0.12.0
 
@@ -119,7 +119,7 @@ packages:
       "@angular-devkit/core": 14.2.10
       "@angular/compiler-cli": 14.2.12_ldxvyn7sfxql3enqylvzy5khzu
       lodash: 4.17.21
-      ts-node: 10.9.1_crxqgk3x743ztdhwvjtekvysqe
+      ts-node: 10.9.1_rf36vhyq5bw7w55ijgrvnfasgy
       tsconfig-paths: 3.14.1
       webpack-merge: 5.8.0
     transitivePeerDependencies:
@@ -387,7 +387,7 @@ packages:
       aria-query: 5.1.3
       axobject-query: 3.1.1
       eslint: 8.31.0
-      typescript: 4.9.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -404,7 +404,7 @@ packages:
       "@angular-eslint/utils": 14.4.0_wogtpudmlxya2leoxia5qf2rl4
       "@typescript-eslint/utils": 5.43.0_wogtpudmlxya2leoxia5qf2rl4
       eslint: 8.31.0
-      typescript: 4.9.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -456,7 +456,7 @@ packages:
       "@angular-eslint/bundled-angular-compiler": 14.4.0
       "@typescript-eslint/utils": 5.43.0_wogtpudmlxya2leoxia5qf2rl4
       eslint: 8.31.0
-      typescript: 4.9.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3115,7 +3115,7 @@ packages:
       "@typescript-eslint/typescript-estree": 5.30.7_typescript@4.7.4
       debug: 4.3.4
       eslint: 8.31.0
-      typescript: 4.9.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3158,8 +3158,8 @@ packages:
       "@typescript-eslint/utils": 5.30.7_wogtpudmlxya2leoxia5qf2rl4
       debug: 4.3.4
       eslint: 8.31.0
-      tsutils: 3.21.0_typescript@4.9.4
-      typescript: 4.9.4
+      tsutils: 3.21.0_typescript@4.7.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3181,8 +3181,8 @@ packages:
       "@typescript-eslint/utils": 5.43.0_wogtpudmlxya2leoxia5qf2rl4
       debug: 4.3.4
       eslint: 8.31.0
-      tsutils: 3.21.0_typescript@4.9.4
-      typescript: 4.9.4
+      tsutils: 3.21.0_typescript@4.7.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3221,8 +3221,8 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.3.8
-      tsutils: 3.21.0_typescript@4.9.4
-      typescript: 4.9.4
+      tsutils: 3.21.0_typescript@4.7.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3245,8 +3245,8 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.3.8
-      tsutils: 3.21.0_typescript@4.9.4
-      typescript: 4.9.4
+      tsutils: 3.21.0_typescript@4.7.4
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10960,7 +10960,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.9.4
+      typescript: 4.7.4
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
