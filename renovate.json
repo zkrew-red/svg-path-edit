@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>renovatebot/.github"],
+  "semanticCommitScope": "deps",
+  "automergeType": "pr",
+  "includeForks": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor"],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
