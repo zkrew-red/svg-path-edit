@@ -50,7 +50,8 @@ Edit or create SVG paths in browser: <https://zkrew-red.github.io/svg-path-edito
 
 #### Requirements
 
-- [Node.js](https://nodejs.org/) v12.14, v14.15 or higher.
+- [Node.js](https://nodejs.org/) v14.15 or higher.
+- [pnpm](https://pnpm.io) v7.x
 
 #### Dependencies
 
