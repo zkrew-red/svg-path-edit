@@ -2,7 +2,7 @@ import { SvgParser } from './svg-parser';
 
 export function formatNumber(v: number, d: number, minify = false): string {
     let result = v.toFixed(d)
-        .replace(/^(-?[0-9]*\.([0-9]*[1-9])?)0*$/, '$1')
+        .replace(/^(-?\d*\.(\d*[1-9])?)0*$/, '$1')
         .replace(/\.$/, '');
     if (minify) {
         result = result.replace(/^(-?)0\./, '$1.');
@@ -69,7 +69,7 @@ export abstract class SvgItem {
             case EllipticalArcTo.key: result = new EllipticalArcTo(values, relative); break;
         }
         if(!result) {
-            throw 'Invalid SVG item';
+            throw new Error('Invalid SVG item');
         }
         return result;
     }
@@ -157,10 +157,11 @@ export abstract class SvgItem {
     }
 
     public resetControlPoints(previousTarget: SvgItem) {
+      // TODO document why this method 'resetControlPoints' is empty
     }
 
     public translate(x: number, y: number, force = false) {
-        if (!this.relative || force) {
+        if (!this.relative || force) {
             this.values.forEach( (val, idx) => {
                 this.values[idx] = val + (idx % 2 === 0 ? x : y);
             });
@@ -239,7 +240,7 @@ class CurveTo extends SvgItem {
     static readonly key = 'C';
     public refreshAbsoluteControlPoints(origin: Point, previousTarget: SvgItem | null) {
         if(!previousTarget) {
-            throw 'Invalid path';
+            throw new Error('Invalid path');
         }
         this.absoluteControlPoints = [
             new SvgControlPoint(this.absolutePoints[0], [previousTarget.targetLocation()]),
@@ -311,7 +312,7 @@ class QuadraticBezierCurveTo extends SvgItem {
     static readonly key = 'Q';
     public refreshAbsoluteControlPoints(origin: Point, previousTarget: SvgItem | null) {
         if(!previousTarget) {
-            throw 'Invalid path';
+            throw new Error('Invalid path');
         }
         this.absoluteControlPoints = [
             new SvgControlPoint(this.absolutePoints[0], [previousTarget.targetLocation(), this.targetLocation()])
@@ -550,7 +551,7 @@ export class Svg {
                 return str
                     .replace(/^([a-z]) /i, '$1')
                     .replace(/ -/g, '-')
-                    .replace(/(\.[0-9]+) (?=\.)/g, '$1');
+                    .replace(/(\.\d+) (?=\.)/g, '$1');
             } else {
                 return str;
             }

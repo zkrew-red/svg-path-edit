@@ -17,7 +17,7 @@ html, body {
     position: fixed;
     */
 }
-  
+
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -38,8 +38,6 @@ html, body {
     background-color:transparent;
 }
 
-
-
 input.app-input,
 textarea.app-input {
     color:white;
@@ -49,9 +47,6 @@ textarea.app-input {
     border-color: #c8c8c8;
     border-radius: 2px 2px 0 0;
     transition: border-width 100ms, padding-bottom 100ms;
-}
-textarea.app-input,
-input.app-input {
     margin: 0;
     padding: 0 4px 1px 4px;
 }
@@ -143,7 +138,7 @@ button.mat-icon-button.more-button {
     }
     >textarea {
         padding-top:17px;
-        resize: vertical; 
+        resize: vertical;
     }
     >label.opaque {
         background-color:rgba(69,69,69,0.9);

@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$svg-path-editor-primary: mat.define-palette(mat.$blue-palette);
-$svg-path-editor-accent: mat.define-palette(mat.$blue-palette);
+$svg-path-editor-primary: mat.define-palette(mat.$purple-palette);
+$svg-path-editor-accent: mat.define-palette(mat.$teal-palette);
 
 // The warn palette is optional (defaults to red).
 $svg-path-editor-warn: mat.define-palette(mat.$red-palette);
