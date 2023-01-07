@@ -6,13 +6,14 @@
 * {
   box-sizing: border-box;
 }
+
 .footer {
   position: fixed;
   left: 0;
   height: 28px;
   width: 300px;
   bottom: 0px;
-  background-color: #111111;
+  background-color: hsl(0, 0%, 7%);
   font-size: 14px;
   display: flex;
   justify-content: space-evenly;
@@ -22,8 +23,8 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #aaaaaa;
-    fill: #aaaaaa;
+    color: hsl(0, 0%, 67%);
+    fill: hsl(0, 0%, 67%);
     &:hover {
       color: white;
       fill: white;
@@ -38,6 +39,7 @@
     }
   }
 }
+
 .spacer {
   height: 32px;
 }
@@ -47,12 +49,14 @@
   width: 300px;
   position: relative;
 }
+
 .left-column {
   width: 100%;
   overflow: auto;
-  background-color: #252526;
+  background-color: hsl(240, 1%, 15%);
   height: calc(100% - 28px);
 }
+
 .left-column-close,
 .left-column-open {
   position: absolute;
@@ -62,12 +66,15 @@
   padding: 8px 2px;
   z-index: 10;
 }
+
 .left-column-close {
   right: -28px;
 }
+
 .left-column-open {
   left: 0;
 }
+
 .left-column,
 textarea {
   scrollbar-width: thin;
@@ -90,7 +97,7 @@ input.svg-value {
   height: 20px;
   width: 20px;
   text-align: center;
-  background-color: rgba(255, 128, 0, 0.5);
+  background-color: hsla(204, 85%, 24%, 0.5);
   color: #c8c8c8;
   border-style: solid;
   border-width: 0 0 1px 0;
@@ -98,17 +105,21 @@ input.svg-value {
   border-color: #c8c8c8;
   cursor: pointer;
 }
+
 .type-token-relative {
-  background-color: rgba(128, 0, 255, 0.5);
+  background-color: hsla(270, 100%, 50%, 0.5);
 }
+
 .row > .type-token {
   flex-shrink: 0;
 }
+
 div.hovered {
-  background-color: #37373d;
+  background-color: hsl(240, 5%, 23%);
 }
+
 div.dragged {
-  background-color: #094771;
+  background-color: hsl(204, 85%, 24%);
 }
 
 .path-buttons {
@@ -116,9 +127,11 @@ div.dragged {
   margin-top: 4px;
   width: 100%;
 }
+
 textarea {
   vertical-align: top;
 }
+
 .path-operations-grid {
   display: grid;
   grid-template-columns: 6fr 6fr 7fr;
