@@ -8,7 +8,7 @@ pnpm install
 pnpm run build-prod
 git checkout gh-pages
 rm -rf *.ico *.html *.js *.css *.txt assets
-mv dist/svg-path-editor/* .
+mv dist/pathedit/* .
 git add --all
 git commit -m "Refreshed gh-pages from main"
 git show --stat
