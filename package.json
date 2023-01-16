@@ -33,7 +33,7 @@
     "@angular-builders/custom-webpack": "^14.1.0",
     "@angular-eslint/builder": "~14.4.0",
     "@angular-eslint/eslint-plugin": "~14.4.0",
-    "@angular-eslint/eslint-plugin-template": "~14.4.0",
+    "@angular-eslint/eslint-plugin-template": "~15.2.0",
     "@angular-eslint/schematics": "~14.4.0",
     "@angular-eslint/template-parser": "~14.4.0",
     "@angular/cli": "^15.0.0",
