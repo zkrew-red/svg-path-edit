@@ -1,4 +1,4 @@
-FROM node:current
+FROM node:current@sha256:a98e6fda54fdbb22d4238054cca9a2a113bcd1191c09193a535aae22f400aa8e
 
 RUN mkdir -p /app
 WORKDIR /app
